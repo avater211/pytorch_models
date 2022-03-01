@@ -1,0 +1,9 @@
+schema: "postgresql"
+user: "postgres"
+passwd: "hello123"
+host: "10.100.99.15"
+port: 30504
+database: "pt_perf"
+type: "postgres"
+verbose: 0
+rebuild: 0

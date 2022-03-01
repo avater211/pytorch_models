@@ -1,0 +1,13 @@
+network:MobileNetV2, Batch Size:64, device count:4, Precision:O0, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:70.912, device:MLU290, SW:r0.17.0, dataset:ImageNet2012
+network:VGG16_bn, Batch Size:32, device count:4, Precision:O0, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:72.994(150epoch), device:MLU290, SW:r0.17.0, dataset:ImageNet2012
+network:SSD_ResNet50, Batch Size:32, device count:4, Precision:O0, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:0.250(65epoch), device:MLU290, SW:r0.17.0, dataset:VOC
+network:yolov3, Batch Size:64, device count:4, Precision:O0, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:55.023(273epoch), device:MLU290, SW:r0.17.0, dataset:COCO2014
+network:yolov5, Batch Size:64, device count:4, Precision:O0, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:0.491(300epoch), device:MLU290, SW:r0.17.0, dataset:COCO2017
+
+network:ResNet50_v1.5, Batch Size:64, device count:4, Precision:O0, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:76.398, device:MLU370, SW:r0.17.0, dataset:ImageNet2012
+network:ngc-BERT, Batch Size:16, device count:4, Precision:O1, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:88.527, device:MLU370, SW:r0.17.0, dataset:SQUAD1.1
+network:InceptionV3, Batch Size:64, device count:4, Precision:O1, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:77.422(192epoch), device:MLU370, SW:r0.17.0, dataset:ImageNet2012
+network:ResNet101, Batch Size:64, device count:4, Precision:O1, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:76.644(100epoch), device:MLU370, SW:r0.17.0, dataset:ImageNet2012
+network:NGC-ResNet501.5, Batch Size:128, device count:4, Precision:O1, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:76.46(100epoch), device:MLU370, SW:r0.17.0, dataset:ImageNet2012
+network:SSD_VGG16, Batch Size:64, device count:4, Precision:O0, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:0.7748, device:MLU370, SW:r0.17.0, dataset:VOC
+network:yolov5, Batch Size:64, device count:4, Precision:O0, eval_exec_mode:b.ii, DPF mode:DDP, Accuracy:0.505(300epoch), device:MLU370, SW:r0.17.0, dataset:COCO2017

@@ -1,0 +1,44 @@
+network:resnet18, Batch Size:512, device count:1, Precision:O0, DPF mode:single, time_avg:0.422s, time_var:0.195077, throughput(fps):1214.0, device: MLU290-M5 , dataset:imageNet2012
+network:resnet50, Batch Size:256, device count:1, Precision:O0, DPF mode:single, time_avg:0.467s, time_var:0.000013, throughput(fps):547.7, device: MLU290-M5 , dataset:imageNet2012
+network:vgg16, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.243s, time_var:0.000002, throughput(fps):527.3, device: MLU290-M5 , dataset:imageNet2012
+network:mobilenet_v2, Batch Size:256, device count:1, Precision:O0, DPF mode:single, time_avg:0.568s, time_var:0.000002, throughput(fps):450.8, device: MLU290-M5 , dataset:imageNet2012
+network:alexnet, Batch Size:256, device count:1, Precision:O0, DPF mode:single, time_avg:0.202s, time_var:0.131611, throughput(fps):1267.1, device: MLU290-M5 , dataset:imageNet2012
+network:googlenet, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.169s, time_var:0.000004, throughput(fps):755.8, device: MLU290-M5 , dataset:imageNet2012
+network:resnet101, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.399s, time_var:0.000002, throughput(fps):320.9, device: MLU290-M5 , dataset:imageNet2012
+network:vgg19, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.281s, time_var:0.000001, throughput(fps):456.2, device: MLU290-M5 , dataset:imageNet2012
+network:vgg16_bn, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.337s, time_var:0.000002, throughput(fps):380.4, device: MLU290-M5 , dataset:imageNet2012
+network:shufflenet_v2_x0_5, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.100s, time_var:0.000004, throughput(fps):1276.6, device: MLU290-M5 , dataset:imageNet2012
+network:shufflenet_v2_x1_0, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.154s, time_var:0.000003, throughput(fps):829.6, device: MLU290-M5 , dataset:imageNet2012
+network:shufflenet_v2_x1_5, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.207s, time_var:0.000001, throughput(fps):617.3, device: MLU290-M5 , dataset:imageNet2012
+network:resnet50v1_5, Batch Size:256, device count:1, Precision:O0, DPF mode:single, time_avg:0.463s, time_var:-, throughput(fps):552.9, device: MLU290-M5 , dataset:imageNet2012
+network:inceptionv2, Batch Size:256, device count:1, Precision:O0, DPF mode:single, time_avg:0.306s, time_var:0.000151, throughput(fps):837.1, device: MLU290-M5 , dataset:imageNet2012
+network:densenet201, Batch Size:32, device count:1, Precision:O0, DPF mode:single, time_avg:0.626s, time_var:0.000000, throughput(fps):51.1, device: MLU290-M5 , dataset:imageNet2012
+network:transformer, Batch Size:32, device count:1, Precision:O0, DPF mode:single, time_avg:0.214s, time_var:0.000006, throughput(fps):1497.9, device: MLU290-M5 , dataset:IWSLT2016
+network:BERT, Batch Size:16, device count:1, Precision:O0, DPF mode:single, time_avg:0.645s, time_var:0.000000, throughput(squences_per_sec):24.8, device: MLU290-M5 , dataset:SQUAD1.1, device: MLU290-M5 , dataset:SQUAD1.1
+network:bert_base_finetune_msra_ner, Batch Size:30, device count:1, Precision:O0, DPF mode:single, time_avg:0.365s, time_var:0.004526, throughput(squences_per_sec):82.1, device: MLU290-M5 , dataset:msra
+network:yolov3, Batch Size:16, device count:1, Precision:O0, DPF mode:single, time_avg:0.560s, time_var:0.000319, throughput(fps):28.6, device: MLU290-M5 , dataset:COCO2014
+network:yolov5, batch Size:16, device count:1, Precision:O0, DPF mode:single, time_avg:0.597s, time_var:0.004984, throughput(fps):26.8, device: MLU290-M5 , dataset:COCO2017
+
+network:resnet18, Batch Size:512, device count:1, Precision:O0, DPF mode:single, time_avg:2.474s, time_var:10.925015, throughput(fps):206.9, device: MLU370-X8 , dataset:imageNet2012
+network:resnet50, Batch Size:256, device count:1, Precision:O0, DPF mode:single, time_avg:1.642s, time_var:0.000002, throughput(fps):155.9, device: MLU370-X8 , dataset:imageNet2012
+network:vgg16, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:1.847s, time_var:0.000001, throughput(fps):69.3, device: MLU370-X8 , dataset:imageNet2012
+network:mobilenet_v2, Batch Size:256, device count:1, Precision:O0, DPF mode:single, time_avg:2.925s, time_var:0.000002, throughput(fps):87.5, device: MLU370-X8 , dataset:imageNet2012
+network:alexnet, Batch Size:256, device count:1, Precision:O0, DPF mode:single, time_avg:1.211s, time_var:6.583991, throughput(fps):211.4, device: MLU370-X8 , dataset:imageNet2012
+network:googlenet, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.602s, time_var:0.125752, throughput(fps):212.6, device: MLU370-X8 , dataset:imageNet2012
+network:resnet101, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:1.386s, time_var:0.000001, throughput(fps):92.3, device: MLU370-X8 , dataset:imageNet2012
+network:vgg19, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:2.285s, time_var:0.000002, throughput(fps):56.0, device: MLU370-X8 , dataset:imageNet2012
+network:vgg16_bn, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:2.142s, time_var:0.000002, throughput(fps):59.8, device: MLU370-X8 , dataset:imageNet2012
+network:shufflenet_v2_x0_5, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.607s, time_var:0.870481, throughput(fps):211.0, device: MLU370-X8 , dataset:imageNet2012
+network:shufflenet_v2_x1_0, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.603s, time_var:0.124004, throughput(fps):212.2, device: MLU370-X8 , dataset:imageNet2012
+network:shufflenet_v2_x1_5, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:0.633s, time_var:0.000002, throughput(fps):202.1, device: MLU370-X8 , dataset:imageNet2012
+network:inceptionv3, Batch Size:128, device count:1, Precision:O0, DPF mode:single, time_avg:1.349s, time_var:0.000005, throughput(fps):94.9, device: MLU370-X8 , dataset:imageNet2012
+network:resnet50v1_5, Batch Size:256, device count:1, Precision:O0, DPF mode:single, time_avg:1.622s, time_var:-, throughput(fps):157.9, device: MLU370-X8 , dataset:imageNet2012
+network:inceptionv2, Batch Size:256, device count:1, Precision:O0, DPF mode:single, time_avg:1.225s, time_var:0.323143, throughput(fps):208.9, device: MLU370-X8 , dataset:imageNet2012
+network:densenet201, Batch Size:32, device count:1, Precision:O0, DPF mode:single, time_avg:1.246s, time_var:0.000263, throughput(fps):25.7, device: MLU370-X8 , dataset:imageNet2012
+network:transformer, Batch Size:32, device count:1, Precision:O0, DPF mode:single, time_avg:0.478s, time_var:0.000014, throughput(fps):669.5, device: MLU370-X8 , dataset:IWSLT2016
+network:Fairseq, Batch Size:-1, device count:1, Precision:O0, DPF mode:single, time_avg:2.434s, time_var:-1, throughput(wps):2724.0 , device: MLU370-X8 , dataset:wmt17
+network:BERT, Batch Size:16, device count:1, Precision:O0, DPF mode:single, time_avg:1.880s, time_var:0.000006, throughput(squences_per_sec):8.5, device: MLU370-X8 , dataset:SQUAD1.1, device: MLU370-X8 , dataset:SQUAD1.1
+network:bert_base_finetune_msra_ner, Batch Size:30, device count:1, Precision:O0, DPF mode:single, time_avg:0.886s, time_var:0.051250, throughput(squences_per_sec):33.9, device: MLU370-X8 , dataset:msra
+network:SSD_Resnet50, Batch Size:32, device count:1, Precision:O0, DPF mode:single, time_avg:1.819s, time_var:1.593499, throughput(fps):17.6, device: MLU370-X8 , dataset:COCO2017
+network:yolov3, Batch Size:16, device count:1, Precision:O0, DPF mode:single, time_avg:1.578s, time_var:0.000664, throughput(fps):10.1, device: MLU370-X8 , dataset:COCO2014
+network:SSD-VGG16, Batch Size:32, device count:1, Precision:O0, DPF mode:single, time_avg:2.758s, time_var:0.010490, throughput(fps):11.6, device: MLU370-X8 , dataset:VOC, device: MLU370-X8 , dataset:COCO2017
